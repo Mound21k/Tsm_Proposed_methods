@@ -9,9 +9,9 @@ import numpy as np
 from visualization import city_drawer, path_drawer
 
 img = np.full((WIDTH,HEIGHT,3),255,np.uint8)
-#cities_locations = city_randomizer(N, WIDTH, HEIGHT)
-cities_locations =[(335, 382), (444, 293), (52, 335), (363, 347), (451, 323), (209, 141), (239, 370), (99, 97), (428, 78), (321, 129), (334, 162), (397, 210), (311, 358), (353, 140), (322, 147), (281, 307), (248, 212), 
-(87, 293), (124, 139), (396, 83)]
+cities_locations = city_randomizer(N, WIDTH, HEIGHT)
+# cities_locations =[(335, 382), (444, 293), (52, 335), (363, 347), (451, 323), (209, 141), (239, 370), (99, 97), (428, 78), (321, 129), (334, 162), (397, 210), (311, 358), (353, 140), (322, 147), (281, 307), (248, 212), 
+# (87, 293), (124, 139), (396, 83)]
 #print(cities_locations)
 current_population = init_population_r(N, MAX_POPULATION)
 for i in range(1,EPOCH+1):
