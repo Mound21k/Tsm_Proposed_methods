@@ -1,5 +1,5 @@
 # Tsm_Proposed_methods
-Solving TSM problem using different solving methods!
+Solving TSM problem in Genetics using different solving methods!
 
 In this repository , We attempt to slove TSP , a toy problem , using new methods including PMX operator as cross-over function and 
 Displacement Mutation operator.
